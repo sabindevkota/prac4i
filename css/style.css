@@ -1,0 +1,86 @@
+
+body{
+  background:url(image.jpg);
+  padding-left: 250px;
+  padding-right: 250px;
+
+
+}
+
+div{
+  font-size: 30px;
+  font-style: normal;
+}
+
+ img{
+  height:50%;
+  width:100%;
+}
+
+#museumwrapper{
+  width: 40%;
+  height: 1000px;
+  text-align: justify;
+  margin: 4%;
+  border-color: blue;
+  background-color: #ABB2B9;
+  padding: 10px;
+  float: left;
+}
+
+section{
+  font-size:25px;
+  margin:0%;
+  padding:10px;
+}
+h1{
+  font-size: 20;
+}
+h2{
+  font-size: 20;
+}
+#websitewrapper{
+  width: 40%;
+  height: 1000px;
+  text-align: justify;
+  margin: 4%;
+  background-color: #ABB2B9;
+  padding:10px;
+  float:right;
+  }
+  #sectionwrapper{
+    background-color: lightblue;
+
+  }
+  #wrapper{
+    background-color: lightblue;
+  }
+  @media only screen and (max-width: 1000px) {
+
+    #museumwrapper{
+      width: 90%;
+      height: 950px;
+      text-align: justify;
+      margin: 1%;
+      border-color: blue;
+      background-color: #ABB2B9;
+      padding: 10px;
+      float: left;
+    }
+
+    section{
+      font-size:25px;
+      margin:0%;
+      padding:10px;
+    }
+
+    #websitewrapper{
+      width: 90%;
+      height: 950px;
+      text-align: justify;
+      margin: 1%;
+      background-color: #ABB2B9;
+      padding:10px;
+      float:right;
+      }
+  }
